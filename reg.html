@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reg.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/rl_header.css">
+    <link rel="stylesheet" href="css/comm.css">
+    <link rel="stylesheet" href="css/footer.css">
+</head>
+<body>
+  <div id="header"></div>
+  <div class="title-line">
+    <span class="tit">注册</span>
+  </div>
+  <div class="register-container">
+    <div class="reg-padd">
+      <!-- 昵称 -->
+      <div class="uname">
+        <input class="el-input-inner" name="uname" type="text" placeholder="昵称" >
+    
+        <p class="error-message" style="display:inline-block"></p>
+      </div>
+      <!-- 密码安全验证 -->
+      <!-- <div></div> -->
+      <div class="safe opacity-none">
+        <p>安全系数</p>
+        <div class="safe-one"></div>
+        <div class="safe-two"></div>
+        <div class="safe-three"></div>
+        <p class="error-message" style="display:inline-block">123456</p>
+      </div>
+      <!-- 密码框 -->
+      <div class="upwd">
+        <input class="el-input-inner" name="upwd" type="password" placeholder="密码">
+        
+        <p class="error-message" style="display:inline-block"></p>
+      </div>
+      <div class="safe"></div>
+      <!-- 手机号码 -->
+      <div class="phone">
+        <button class="el-input-inner area">中国大陆</button>
+        <input class="el-input-inner phone-input" name="uphone" type="text" placeholder="填写常用的手机号">
+    
+        <p class="error-message" style="display:inline-block"></p>
+      </div>
+      <!-- 邮箱链接 -->
+      <div class="safe">
+        <a href="#" class="safe-email">用邮箱注册></a>
+      </div>
+      <!-- 验证码 -->
+      <div class="vali-phone">
+          
+          <input class="el-input-inner phone-input" name="uvali" type="number" placeholder="请输入短信验证码">
+          <button class="el-input-inner btn-yanzhengma">点击获取</button>
+      
+          <p class="error-message" style="display:inline-block"></p>
+      </div>
+      <div class="safe div-agree">
+          <input type="checkbox" class="agree">我已同意
+          <a href="#">《哔哩哔哩弹幕网用户使用协议》</a>和<a href="#">《哔哩哔哩弹幕网账号中心规范》</a>
+      </div>
+      <!-- 注册按钮 -->
+      <div class="reg">
+        <button class="safe el-input-inner btn-reg">注册</button>
+      </div>
+      <!-- 直接登录链接 -->
+      <div class="safe">
+          <a href="#" class="safe-email">已有账号，点击登录></a>
+      </div>
+    </div> 
+  </div>
+  <div id="footer"></div>
+  <script src="/js/jquery-3.2.1.js"></script>
+  <script src="./js/reg.js"></script>
+</body>
+</html>

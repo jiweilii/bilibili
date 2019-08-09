@@ -1,0 +1,204 @@
+@charset "UTF-8";
+/*css reset*/
+
+
+.banner{
+  height: 183px;
+  width:100%;
+  background:url("../img/index_img/banner1.png");
+  margin:0 auto; 
+  overflow: hidden;
+ }
+ .banner .bili_tex{
+     float: left;
+     margin-top: 20px;
+     margin-left: 160px; 
+     clear: both;
+ }
+ .banner_top{
+     width: 100%;
+     background:rgba(255,255,255,.4);
+ }
+ .banner_top::after{
+     content:"";
+     display:block;
+     clear: both;
+ }
+ .banner_top .top_left{
+     position: relative;
+     width: 40%;
+     margin-left:150px; 
+     float: left;
+     height: 40px;
+ }
+ .banner_top .top_left li .zhuzhan{
+     position: absolute;
+     top:10px;
+     left:-5px;
+     background: url(../img/icons.png) -914px -85px;
+     height: 40px;
+     width: 40px;
+
+ }
+ .banner_top .top_left li:first-child{
+     width: 54px;
+     /* align-content: center; */
+     padding-left: 20px;
+ }
+ .banner_top .top_left li{
+     height: 40px;
+     float: left;
+     list-style: none;
+     line-height: 42px;
+     padding:0px 10px;
+ }
+ .banner_top .top_left li:hover{
+    background: rgba(255,255,255,.5);
+ }
+ .banner ul .li_a{
+     text-decoration: none;
+     color: #000;
+     line-height: 20px;
+ }
+ .banner_top .top_right{
+     width: 30%;
+     float:right;
+     height: 40px;
+ }
+ .banner_top .top_right li{
+     height: 40px;
+     width: 70px;
+     float: left;
+     list-style: none;
+     text-align: center;
+ }
+ .banner_top .top_right li .a_tex{
+     
+     display: inline-block;
+     width: 70px;height: 40px;
+     padding: 10px;
+ }
+ .banner_top .top_right li .a_tg{
+     background: #f45a8d;
+     color: #fff;
+     border-radius: 3%;
+ }
+
+
+ .banner_top .mini_head{
+     height: 30px;
+     border-radius: 50%;
+     margin-top: 5px;
+     float: right;
+ }
+ .banner_top .mini-hover:hover .mini-login{
+    display: block;
+ }
+ .banner_top .mini-login{
+     display: none;
+     position: absolute;
+     top: 36px;
+     right: 260px;
+     width: 344px;
+     /* height: 200px; */
+     z-index: 333;
+     background: #fff;
+     /* align-content: center; */
+     /* margin: 0px auto; */
+     text-align: left;
+     padding: 12px;
+     /* border: 2px solid #ff0; */
+ }
+ .banner_top .mini-login .tip{
+     color:#6d757a;
+     font-size: 12px;
+ }
+ .banner_top .mini-login .img{
+    width: 320px;
+    height: 200px;
+    background: url(../img/header/danmu.png);
+    position: relative;
+    overflow: hidden;
+ }
+ .banner_top .mini-login .img img:first-child{
+     position: absolute;
+     left: 0px;
+     /* transition: all 5s linear; */
+ }
+ .danmu{
+     left: -300px;
+ }
+ .banner_top .mini-login .img img:last-child{
+     position: absolute;
+     left: 320px;
+ }
+ .search{
+     float: right;
+     margin-right: 74px;
+     margin-top: 90px;
+     display: flex;
+     width: 400px;
+
+     
+ }
+ .inp_bg{
+    
+
+     position: relative;
+     width:68px;
+     border-radius: 5%;
+     height: 30px;
+     line-height: 32px;
+ }
+ .inp_bg .inp_bg_a{
+     position: absolute;
+     color: #f00;
+     text-decoration: none;
+     background-color: hsla(0,0%,100%,.88);
+     top: 0px;
+     left: 0px;
+     height: 32px;
+     line-height: 32px;
+     width: 68px;
+     border-radius: 4px;
+     width: 68px;
+     transition: background-color .2s;
+ }
+ .inp_bg .inp_bg_a span{
+     background: url(../img/icons.png) -659px -655px no-repeat;
+     padding-left: 26px;
+     color: #f25d8e;
+     display: inline-block;
+     height: 32px;
+ }
+ .search .searchform{
+    background-color: hsla(0,0%,100%,.88);
+    display: block;
+    height: 32px;
+    border-radius: 4px;
+    transition: background-color .2s;
+    margin-left: 3px;
+ }
+ .search .searchform .inp_search{
+    float: left;
+    width: 200px;
+    color: #222;
+    font-size: 12px;
+    overflow: hidden;
+    height: 32px;
+    line-height: 32px;
+    padding: 0 12px;
+    border: 0;
+    box-shadow: none;
+    background-color: transparent;
+ }
+ .search .searchform .search_submit{
+    display: block;
+    width: 48px;
+    cursor: pointer;
+    height: 32px;
+    background: url(../img/icons.png) -653px -720px;
+    border: 0px;
+    /* display: block; */
+
+ }

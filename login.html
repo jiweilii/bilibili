@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/rl_header.css">
+    <link rel="stylesheet" href="css/comm.css">
+    <link rel="stylesheet" href="css/footer.css">
+</head>
+<body>
+    <div id="header"></div>
+  <div class="title-line">
+    <span class="tit">登录</span>
+  </div>
+  <div class="register-container clearfix">
+    <!-- 界面左侧部分 -->
+    <div class="left clearfix">
+        <!-- 二维码 -->
+        <div class="erweima">
+            <div class="tv-icon"></div>
+            <img src="./img/login/erweima.png" alt="">
+        </div>
+        <div class="erweima-footer">
+            <p class="info-footer">扫描二维码登录</p>
+            <p class="app-link">请使用
+                <a href="#">哔哩哔哩客户端</a><br>
+                扫码登录<br>
+                或扫码下载APP
+            </p>
+        </div>
+    </div>
+    <!-- 中间分割线 -->
+    <div class="line"></div>
+    <!-- 右侧部分 -->
+    <div class="right">
+        <!-- 手机号输入框 -->
+        <div class="item username clearfix">
+            <input type="text" placeholder="你的手机号/邮箱">
+            <span class="status"></span>
+            <div class="text">
+                <p class="tips"> </p>
+            </div>
+
+        </div>
+        <!-- 密码输入框 -->
+        <div class="item userpwd">
+                <input type="password" placeholder="密码">
+                <span class="status"></span>
+                <div class="text">
+                    <p class="tips"></p>
+                </div>
+        </div>
+        <!-- 记住密码 -->
+        <div class="remember">
+            <label>
+                <input type="checkbox" id="chb">记住我<span>不是自己的电脑不要勾选此项</span>
+                <a href="#" class="not-checkout">无法验证？</a>
+                <a href="#" class="forget-password">忘记密码？</a>
+           </label>
+        </div>
+        <!-- 登录注册按钮 -->
+        <div class="div-btn">
+            <a class="btn btn-login">登录</a>
+            <a class="btn btn-reg" href="./reg.html">注册</a>
+        </div>
+        <!-- 微博 QQ登录链接 -->
+        <div class="sns item">
+            <a class="sina" href="#">
+                微博账号登录
+            </a>
+            <a class="tencent" href="#">
+                QQ账号登录
+            </a>
+        </div>
+        
+
+    </div>
+    
+  </div>
+  <div id="footer"></div>
+  <script src="./js/jquery-3.2.1.js"></script>
+  <script src="./js/login.js"></script>
+</body>
+</html>

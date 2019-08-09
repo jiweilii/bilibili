@@ -1,0 +1,27 @@
+@charset "UTF-8";
+/*css reset*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+  font-size: 12px;
+}
+a{
+  text-decoration: none;
+  color: #333;
+  /* line-height: 25px; */
+}
+.rad_4{
+  border-radius: 4px;
+}
+.clearfix::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+.dis-none{
+  display: none;
+}
+.opacity-none{
+  opacity: 0;
+}

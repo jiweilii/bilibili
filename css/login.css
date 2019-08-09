@@ -1,0 +1,174 @@
+.register-container a{
+    font-size: 12px;
+    color: #00a1d6;
+}
+.title-line {
+    width: 980px;
+    height: 28px;
+    margin: 0 auto;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 28px;
+    text-align: center;
+}
+.title-line .tit {
+    height: 56px;
+    line-height: 56px;
+    margin: 0 auto;
+    padding: 0 20px;
+    font-size: 40px;
+    background: #fff;
+    text-align: center;
+}
+.register-container{
+    width: 980px;
+    /* border: 2px solid #ff2; */
+    margin: 0 auto;
+    padding: 20px 0;
+}
+.register-container .left .erweima{
+    width: 100%;
+    /* border:2px solid #f0e; */
+    padding-top: 72px;
+    position: relative;
+    text-align: center;
+    float: left;
+
+}
+.register-container .left .erweima .tv-icon{
+    width: 70px;
+    height: 70px;
+    background: url("../img/login/download.png") ;
+    /* border: 1px solid #f00; */
+    position: absolute;
+    top: 10px;
+    left: 160px;
+}
+/* 左侧的下半部分 */
+.register-container .left .erweima-footer{
+    width: 480px;
+    height: 155px;
+    background: url("/img/login/erweima-s-person.png") 0 -7px no-repeat;
+    float: left;
+}
+.register-container .left .erweima-footer .info-footer{
+    padding-top: 20px;
+    text-align: center;
+    color: #222;
+    font-size: 18px;
+    letter-spacing: 3px;
+    margin-bottom: 5px;
+}
+.register-container .left .erweima-footer .app-link{
+    text-align: center;
+    color: #717171;
+    font-size: 14px;
+}
+/* 中间分割线 */
+.register-container .line{
+    /* width: 1px; */
+    height: 300px;
+    border-right:1px solid #000;
+    float: left; 
+    margin-top: 28px;
+}
+.register-container .right,.left{
+    float: left;
+    width: 49%;
+    vertical-align: middle;
+}
+.register-container .right{
+    padding-left: 50px;
+
+}
+.register-container .right .item:first-child{
+    margin-top: 50px;
+}
+.register-container .right .item{
+    width: 100%;
+    position: relative;
+}
+.register-container .right .item input{
+    width: 388px;
+    border: 1px solid #ddd;
+    color: #aaa;
+    font-size: 14px;
+    padding: 10px;
+    height: 38px;
+    vertical-align: middle;
+    border-radius: 4px;
+}
+.register-container .right .item .status{
+    background: url("/img/login/login-status.png") no-repeat;
+    background-position: -37px -38px;
+    position: absolute;
+    top: 8px;
+    right: 10px;
+    width: 20px;
+    height: 20px;
+}
+.register-container .right .item .text{
+    margin: 6px 0;
+    font-size: 12px;
+    height: 20px;
+    line-height: 20px;
+}
+.register-container .right .item .text .tips{
+    color: #f66495;
+    float: left;
+}
+.register-container .right .remember input{
+    vertical-align: middle;
+}
+.register-container .right .remember{
+    margin: 10px 0;
+    padding-right: 40px;
+}
+.register-container .right .remember span{
+    color: #bbb;
+    margin-left: 10px;
+}
+.register-container .right .remember .not-checkout,.forget-password{
+    float:right;
+}
+.register-container .right .div-btn .btn{
+    color: #555;
+    display: inline-block;
+    height: 36px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    width: 182px;
+    line-height: 38px;
+    font-size: 14px;
+    text-align: center;
+    cursor: pointer;
+    transition: all .3s;
+}
+.register-container .right .div-btn .btn-login{
+    border: 1px solid #0381aa;
+    color: #fff;
+    background-color: #00a7de;
+}
+.register-container .right .div-btn .btn-reg{
+    margin-left: 20px;
+}
+.register-container .right .sns{
+    /* height: 50px; */
+    margin-top: 10px;
+}
+.register-container .right .sns .sina,.tencent{
+    display: inline-block;
+    /* height: 40px; */
+    
+    line-height: 21px;
+}
+.register-container .right .sns .sina{
+    background: url("../img/login/sns.png") no-repeat 0px 0px;
+}
+.register-container .right .sns .tencent{
+    background: url("../img/login/sns.png") no-repeat 0px -41px;
+    margin-left: 30px;
+    
+}
+.register-container .right .sns .sina,.tencent{
+    padding-left: 30px;
+}
